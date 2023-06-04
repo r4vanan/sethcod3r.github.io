@@ -8,14 +8,16 @@ body {
     background-color: #060915;
     color: white;
     font-family: Montserrat;
-    overflow-x: hidden;
+
 }
 
 @font-face {
     font-family: Montserrat;
     src: url(Assests/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
-
+.home{
+    height: 120vh;
+}
 .nav-logo {
     position: absolute;
     top: 1.6em;
@@ -74,6 +76,9 @@ body {
 /* Mobile */
 
 @media screen and (max-device-width: 640px) {
+    .home{
+        height: 170vh;
+    }
     .nav-bar-container-open {
         display: none;
     }
