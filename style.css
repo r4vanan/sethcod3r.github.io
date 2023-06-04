@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #060915;
+    color: white;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Assests/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.nav-logo {
+    position: absolute;
+    top: 1.6em;
+    left: 1.5em;
+}
+
+.hamburger-icon {
+    display: none;
+    position: absolute;
+    top: 2em;
+    right: -2.5em;
+}
+
+.home-hero-ctnt {
+    position: absolute;
+}
+
+.home-hero-txt h1 {
+    font-size: 3em;
+    line-height: 1.1em;
+}
+
+.home-hero-txt h1 span {
+    color: #34B6FF;
+}
+.home-hero-txt h2{
+    font-weight: 300;
+}
+.get-started-btn {
+    text-decoration: none;
+    color: black;
+    background-color: #34B6FF;
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+}
+.login-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    margin-left: 0.5em;
+    font-size: 18px;
+}
+.social-media ul li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+/* Responsive  */
+/* Mobile */
+
+@media screen and (max-device-width: 640px) {
+    .nav-bar-container-open {
+        display: none;
+    }
+
+    .nav-bar-closed {
+        display: block;
+    }
+
+    .hamburger-icon {
+
+        display: block;
+
+    }
+
+    .nav-bar {
+        background-color: black;
+    }
+
+    .home-hero-ctnt {
+        margin-top: 8em;
+        margin-left: 2em;
+    }
+
+    .home-hero-txt h1 {
+        font-size: 3.2em;
+    }
+
+    .home-hero-txt h2 {
+        font-size: 0.5sem;
+        width: 17em;
+        margin-top: 0.5em;
+
+    }
+    .home-main-btns {
+        margin-top: 2em;
+        font-weight: 400;
+    }
+    .hero-img-home{
+        margin-top: 8em;
+    }
+    .social-media {
+        height: 5em;
+        width: 30em;
+        margin-left: -1.5em;
+        background-color: #131829;
+        border: 2px solid white;
+
+    }
+    .social-media ul li {
+        display: inline-block;
+        padding: 30px;
+        margin-left: 1.5em;
+        margin-top: -0.5em;
+    }
+}
+
+/* Tablet view */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .nav-bar-container-open {
+        display: none;
+    }
+
+    .nav-bar-closed {
+        display: block;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+}
+
+/*  Desktop View */
+@media screen and (min-width: 1024px) {}
