@@ -414,6 +414,7 @@ body {
 }
 
 .footer {
+    margin-top: 10em;
     height: 70vh;
     background-color: #202434;
 }
@@ -587,7 +588,7 @@ body {
         margin-top: 0.5em;
 
     }
-    
+
     .home-main-btns {
         margin-top: 2em;
         font-weight: 400;
