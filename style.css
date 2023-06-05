@@ -145,6 +145,7 @@ body {
 }
 
 .social-media {
+
     position: absolute;
     left: 85em;
     height: 12em;
@@ -155,6 +156,10 @@ body {
 
 .social-media ul li {
     padding: 8px;
+
+}
+.social-media ul li  {
+    display: inline-block;
 }
 
 .about-us {
@@ -575,8 +580,10 @@ body {
 
 
     .hero-img-home {
-        margin-top: 8em;
-    }
+        position: absolute;
+        margin-right: 33em;
+        margin-top: 28em;
+        }
 
     .hamburger-icon {
         position: absolute;
@@ -584,7 +591,7 @@ body {
         margin-top: 0.8em;
     }
     .home-hero-ctnt {
-        margin-top: 10em;
+        margin-top: 8em;
     }
     .nav-bar{
         height: 100vh;
@@ -607,17 +614,36 @@ body {
 
     .home-hero-txt h1{
         font-size: 2.8em;
-        margin-left: -0.5em;
+        margin-left: -0.8em;
         width: 8em;
     }
     .home-hero-txt h2{
         font-size: 1.3em;
-        margin-left: -0.9em;
+        margin-left: -1.6em;
         width: 15em;
     }
     .home-main-btns{
-        margin-left: -0.9em;
+        margin-left: -2em;
     }
+   .social-media {
+    margin-top: 48em;
+    position: absolute;
+    margin-left: -90em;
+    width: 30em;
+    height: 5em;
+   }
+   .social-media ul li img{
+    padding: 2em;
+    margin-top: -1em;
+   }
+   .one-cloud-bg-txt {
+    display: none;
+
+   }
+   .bg-grid-line-about-us {
+    display: none;
+    
+   }
 }
 
 /* Tablet view */
@@ -634,7 +660,6 @@ body {
         display: block;
     }
 
-}
 
 /*  Desktop View */
 @media screen and (min-width: 1024px) {}
