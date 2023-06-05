@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+a {
+    cursor: pointer;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -467,7 +471,7 @@ body {
 .footer-lower-container-right {
     position: absolute;
     margin-top: -9em;
-    right: -50em;
+    right: -40em;
 }
 
 .footer-lower-container-left {
@@ -526,13 +530,7 @@ body {
     background-color: white;
 }
 
-.footer-c {
-    font-weight: 300;
-    opacity: 0.5;
-    mix-blend-mode: screen;
-    text-align: center;
-    padding-top: 25em;
-}
+
 
 @keyframes infinteAnimation {
     0% {
@@ -575,45 +573,50 @@ body {
         background-color: black;
     }
 
-    .home-hero-ctnt {
-        margin-top: 8em;
-        margin-left: 2em;
-    }
-
-    .home-hero-txt h1 {
-        font-size: 3.2em;
-    }
-
-    .home-hero-txt h2 {
-        font-size: 0.5sem;
-        width: 17em;
-        margin-top: 0.5em;
-
-    }
-
-    .home-main-btns {
-        margin-top: 2em;
-        font-weight: 400;
-    }
 
     .hero-img-home {
         margin-top: 8em;
     }
 
-    .social-media {
-        height: 5em;
-        width: 30em;
-        margin-left: -1.5em;
-        background-color: #131829;
-        border: 2px solid white;
+    .hamburger-icon {
+        position: absolute;
+        left: 22em;
+        margin-top: 0.8em;
+    }
+    .home-hero-ctnt {
+        margin-top: 10em;
+    }
+    .nav-bar{
+        height: 100vh;
+        position: absolute;
+        background-color: #0d2147;
+        z-index: 2;
+    }
+    .nav-bar ul {
+        margin-top: 6em;
+        margin-left: -4em;
+    }
+    .nav-bar ul li a {
+        display: inline-block;
+        padding: -4em;
+    }
+    .home-btns {
 
+        display: none;
     }
 
-    .social-media ul li {
-        display: inline-block;
-        padding: 30px;
-        margin-left: 1.5em;
-        margin-top: -0.5em;
+    .home-hero-txt h1{
+        font-size: 2.8em;
+        margin-left: -0.5em;
+        width: 8em;
+    }
+    .home-hero-txt h2{
+        font-size: 1.3em;
+        margin-left: -0.9em;
+        width: 15em;
+    }
+    .home-main-btns{
+        margin-left: -0.9em;
     }
 }
 
@@ -635,3 +638,14 @@ body {
 
 /*  Desktop View */
 @media screen and (min-width: 1024px) {}
+
+.footer-c {
+
+    top: 40em;
+    font-weight: 300;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    margin-top: 7em;
+    width: 100%;
+    margin-left: calc(100% - 0%);
+}
