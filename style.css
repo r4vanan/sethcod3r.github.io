@@ -642,7 +642,88 @@ body {
    }
    .bg-grid-line-about-us {
     display: none;
-    
+
+   }
+   .ctnt-wrapper {
+    position: absolute;
+    margin-left: -13em;
+    margin-top: -2em;
+   }
+   .ctnt-wrapper h1{
+    width: 7em;
+    font-size: 3em;
+   }
+   .ctnt-wrapper h2 {
+    font-size: 1em;
+    width: 20m;
+   }
+   .bg-overlay-txt-2 {
+    position: absolute;
+    margin-top: -1.5em;
+   }
+   .down-arrow {
+    position: absolute;
+    margin-top: 15em;
+    margin-right: 5em;
+    transform: scale(0.6);
+   }
+   .about-us {
+     height: 40vh;
+   }
+   .services-main-txt-container{
+    margin-left: 2em;
+   }
+   .services-main-txt-container h1 {
+     font-size: 2.2em;
+    width: 9em;
+   }
+   .services-main-txt-container h2 {
+    font-size: 1.2em;
+    width: 16em;
+   }
+   .service-hero-img{
+    position: absolute;
+    margin-left: -61em;
+    margin-top: -5em;
+    transform: scale(0.5);
+   }
+   .service-hero-main-txt{
+
+    position: absolute;
+    margin-top: -2em;
+    color: #065AFF;
+   }
+   .service-hero-txt-container{
+    font-size: 0.75em;
+   }
+   .service-hero-main-txt-sub {
+    position: absolute;
+    margin-right: -0.75em;
+    margin-top: -3em;
+    font-size: 1.5em;
+   }
+   .service-hero-txt-container {
+    margin-left: -4em;
+   }
+   .rtmp-img {
+    position: absolute;
+    margin-right: -13em;
+    margin-top: -10em;
+    transform: scale(0.75);
+   }
+   .rtmp-container-txt{
+    margin-top: 25em;
+    font-size: 0.5em;
+   }
+   .rtmp-container-txt h2{
+    font-size: 2em;
+    width: 20em;
+   }
+   .srt-img {
+    position: absolute;
+    transform: scale(0.75);
+    margin-left: -2em;
+    margin-top: 4em;
    }
 }
 
