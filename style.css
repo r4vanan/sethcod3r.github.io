@@ -556,6 +556,9 @@ body {
 /* Mobile */
 
 @media screen and (max-device-width: 640px) {
+    body{
+        overflow-x: hidden;
+    }
     .home {
         height: 170vh;
     }
@@ -723,8 +726,23 @@ body {
     position: absolute;
     transform: scale(0.75);
     margin-left: -2em;
-    margin-top: 4em;
+    margin-top: -8em;
    }
+   .srt-container {
+    height: 60vh;
+      padding-right: -20em;
+   }
+   .srt-container-txt {
+    position: absolute;
+    margin-left: -30em;
+    margin-top: 30em;
+    font-size: 0.5em;
+   }
+   .srt-container-txt h2{
+    font-size: 2em;
+    width: 20em;
+   }
+
 }
 
 /* Tablet view */
