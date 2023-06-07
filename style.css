@@ -560,8 +560,8 @@ body {
         width: 25em;
     }
     body{
+       
         overflow-x: hidden;
-        max-width: 640px;
     }
     .home {
         height: 170vh;
@@ -641,6 +641,7 @@ body {
     width: 30em;
     height: 5em;
    }
+
    .social-media ul li img{
     padding: 2em;
     margin-top: -1em;
