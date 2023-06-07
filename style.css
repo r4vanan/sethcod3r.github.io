@@ -556,10 +556,12 @@ body {
 /* Mobile */
 
 @media screen and (max-device-width: 640px) {
+    .footer-outline {
+        width: 25em;
+    }
     body{
-        width: 640px;
         overflow-x: hidden;
-        
+        max-width: 640px;
     }
     .home {
         height: 170vh;
