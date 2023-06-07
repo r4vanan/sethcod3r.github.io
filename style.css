@@ -751,8 +751,67 @@ body {
    .supported-formats {
     height: 50vh;
    }
-  
+   .end-page {
+     height: 100vh;
+   }
+   .end-hero-txt-container {
+    margin-top: 10em;
+    position: absolute;
+    margin-left: 1em;
+    text-align: center;
+ 
+   }
+   .end-hero-txt-container h1 {
+    font-size: 3em;
+    width: 8em;
+    text-align: center;
+   }
+   .end-hero-txt-container h2 {
+    font-size: 1em;
+     width: 22em;
+     margin-left: 1em;
+   }
+   .end-btn-container {
+    margin-top: em;
+    font-size: 0.8em;
+   }
+   .end-hero-img {
+    position: absolute;
+    margin-top: 20em;
+    transform: scale(0.7);
+    margin-left: -6em;
 }
+.footer-btn {
+    position: absolute;
+    margin-top: 2em;
+    margin-left: -12em;
+    font-size: 1em;
+}
+.footer-outline {
+    margin-top: 9em;
+}
+.footer-lower-container-right {
+    position: absolute;
+    margin-top: 2em;
+    margin-right: 55em;
+}
+.link-list-left {
+    margin-right: -2em;
+}
+.link-list-right {
+    margin-left: 13em;
+}
+.footer-c {
+    position: absolute;
+    margin-top: 12em;
+    font-size: 0.75em;
+    opacity: 0.6;
+    font-weight: 300;
+    margin-top: 20em;
+    margin-left: 3em;
+}
+}
+
 
 /* Tablet view */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
