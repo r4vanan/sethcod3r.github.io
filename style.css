@@ -742,7 +742,16 @@ body {
     font-size: 2em;
     width: 20em;
    }
-
+   .supported-formats h1{
+     padding-top: 2em;
+      position: aboslute;
+      margin-left: 0.5em;
+      font-size: 2em;
+   }
+   .supported-formats {
+    height: 50vh;
+   }
+  
 }
 
 /* Tablet view */
