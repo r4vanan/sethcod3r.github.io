@@ -582,7 +582,9 @@ body {
     .nav-bar {
         background-color: black;
     }
-
+  .about-us {
+    height: 100vh;
+  }
 
     .hero-img-home {
         position: absolute;
@@ -703,7 +705,7 @@ body {
    }
    .service-hero-main-txt-sub {
     position: absolute;
-    margin-right: -0.75em;
+    margin-right: 11.8em;
     margin-top: -3em;
     font-size: 1.5em;
    }
