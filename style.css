@@ -755,6 +755,8 @@ body {
    }
    .supported-formats {
     height: 50vh;
+    min-width: 640px;
+    overflow-x: hidden;
    }
    .end-page {
      height: 100vh;
