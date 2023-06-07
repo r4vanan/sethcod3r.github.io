@@ -559,9 +559,13 @@ body {
     .footer-outline {
         width: 25em;
     }
-    body{
-       
+
+    body{max-width: 640px;
+         touch-action: manipulation;
         overflow-x: hidden;
+        zoom: 1;
+        max-zoom: 1;
+        min-zoom: 1;
     }
     .home {
         height: 170vh;
