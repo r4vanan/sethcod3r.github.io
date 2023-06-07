@@ -694,6 +694,7 @@ body {
    .services-main-txt-container h2 {
     font-size: 1.2em;
     width: 16em;
+    margin-left: 2em;
    }
    .service-hero-img{
     position: absolute;
@@ -712,7 +713,7 @@ body {
    }
    .service-hero-main-txt-sub {
     position: absolute;
-    margin-right: 11.8em;
+    margin-right: -1em;
     margin-top: -3em;
     font-size: 1.5em;
    }
