@@ -557,7 +557,9 @@ body {
 
 @media screen and (max-device-width: 640px) {
     body{
+        width: 640px;
         overflow-x: hidden;
+        
     }
     .home {
         height: 170vh;
