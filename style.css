@@ -556,7 +556,7 @@ body {
 /* Responsive  */
 /* Mobile */
 
-@media screen and (max-device-width: 640px) {
+@media  (max-device-width: 640px) {
     body{
         overflow-x: hidden;
         /* width: 100%; */
