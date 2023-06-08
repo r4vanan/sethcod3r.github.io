@@ -556,8 +556,15 @@ body {
 /* Mobile */
 
 @media screen and (max-device-width: 640px) {
+ 
+    .ctnt-wrapper h2 {
+        width: 20em;
+    }
     .body{
-        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .service-main-container{
+        width: 100%;
     }
     .footer-outline {
         width: 25em;
@@ -638,12 +645,12 @@ body {
     margin-top: 48em;
     position: absolute;
     margin-left: -90em;
-    width: 30em;
+    width: 26.5em;
     height: 5em;
    }
 
    .social-media ul li img{
-    padding: 2em;
+    padding: 1.8em;
     margin-top: -1em;
    }
    .one-cloud-bg-txt {
