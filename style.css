@@ -556,6 +556,9 @@ body {
 /* Mobile */
 
 @media screen and (max-device-width: 640px) {
+    .body{
+        overflow-y: hidden;
+    }
     .footer-outline {
         width: 25em;
     }
@@ -687,7 +690,7 @@ body {
    .services-main-txt-container h2 {
     font-size: 1.2em;
     width: 16em;
-    margin-left: 2em;
+    margin-left: 0em;
    }
    .service-hero-img{
     position: absolute;
@@ -834,9 +837,16 @@ body {
         display: block;
     }
 
+}
 
+@media screen and (max-device-width: 400px) { 
+  .nav-logo {
+    position: absolute;
+    margin-left: 0em;
+  }
+}
 /*  Desktop View */
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
 
 .footer-c {
 
@@ -847,4 +857,5 @@ body {
     margin-top: 7em;
     width: 100%;
     margin-left: calc(100% - 0%);
+}
 }
