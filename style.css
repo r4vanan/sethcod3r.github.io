@@ -556,10 +556,10 @@ body {
 /* Responsive  */
 /* Mobile */
 
-@media  (max-device-width: 640px) {
+@media screen and  (max-device-width: 640px) {
     body{
         overflow-x: hidden;
-        /* width: 100%; */
+        width: 100%;
     }
     .body{
         overflow-x: hidden;
@@ -570,7 +570,7 @@ body {
 
 
     .service-main-container {
-        /* width: 100%; */
+        width: 100%;
     }
 
     .footer-outline {
