@@ -557,7 +557,13 @@ body {
 /* Mobile */
 
 @media screen and (max-device-width: 640px) {
-
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .body{
+        overflow-x: hidden;
+    }
     .ctnt-wrapper h2 {
         width: 20em;
     }
