@@ -1,0 +1,12 @@
+exec('whoami', (error, stdout, stderr) => {
+  if (error) {
+    res.send(`Error: ${error.message}`);
+    return;
+  }
+  if (stderr) {
+    res.send(`Error: ${stderr}`);
+    return;
+  }
+
+  // Send the result to the browser
+  res.send(`Command Output: ${stdout}`);
